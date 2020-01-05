@@ -6,7 +6,7 @@ namespace BIRS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello BIRS!");
         }
     }
 }
