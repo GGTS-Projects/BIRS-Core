@@ -1,26 +1,25 @@
 ﻿using Akka.Actor;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace BIRS_api.Classes.Eventing
 {
-    public sealed class NewConnection
+    public partial class ConnectionHolder
     {
-        public readonly Stream Stream;
-
-        public readonly CancellationToken CancellationToken;
-
-        public readonly IActorRef PersistenceActorRef;
-
-        public NewConnection(Stream pStream, CancellationToken pCancellationToken, IActorRef pPersistence)
+        public sealed class NewConnection
         {
-            Stream = pStream;
-            CancellationToken = pCancellationToken;
-            PersistenceActorRef = pPersistence;
+            public readonly Stream Stream;
+
+            public readonly CancellationToken CancellationToken;
+
+            public readonly IActorRef PersistenceActorRef;
+
+            public NewConnection(Stream pStream, CancellationToken pCancellationToken, IActorRef pPersistence)
+            {
+                Stream = pStream;
+                CancellationToken = pCancellationToken;
+                PersistenceActorRef = pPersistence;
+            }
         }
     }
 }
