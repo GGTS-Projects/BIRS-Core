@@ -1,11 +1,9 @@
-﻿using Akka.Actor;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 
 namespace BIRS_api.Classes.Eventing
 {
+    using Akka.Actor;
+
     /// <summary>
     /// Wrapper class to pass a dedicated actorRef into a controller,
     /// with the dotnet mvc dependency injection.

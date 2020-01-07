@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BIRS", "BIRS\BIRS.csproj", "{7E2FCF1D-713F-4BC1-AAFF-45CCC478296D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIRS-api", "BIRS-api\BIRS-api.csproj", "{7B69E401-025E-46F9-95F2-25A03877D742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BIRS-api", "BIRS-api\BIRS-api.csproj", "{7B69E401-025E-46F9-95F2-25A03877D742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{9A2C94EC-E9C3-4182-929B-A10C4A097660}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7B69E401-025E-46F9-95F2-25A03877D742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B69E401-025E-46F9-95F2-25A03877D742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B69E401-025E-46F9-95F2-25A03877D742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A2C94EC-E9C3-4182-929B-A10C4A097660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2C94EC-E9C3-4182-929B-A10C4A097660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2C94EC-E9C3-4182-929B-A10C4A097660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2C94EC-E9C3-4182-929B-A10C4A097660}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
