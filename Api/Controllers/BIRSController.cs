@@ -15,8 +15,7 @@ using Newtonsoft.Json;
 
 namespace Api.Controllers
 {
-    [Route("api/[controller]")]
-    //[ApiController]
+    [Route("/")]
     public class BIRSController : Controller
     {
         private readonly string _nodeId = Guid.NewGuid().ToString();
